@@ -12,8 +12,9 @@ library(leaflet)
 
 This maps shows the location of the stadium of the top football clubs in Buenos Aires, Argentina. Click on the icon to see the name of the club.
 
+## The Map
+
 ```{r, echo=FALSE}
-##
 clubs<-c("Platense","River","Boca","Velez")
 lat<-c(-34.54007020270239, -34.54516478664914, -34.635504950302696,-34.63530005004096) 
 lng<-c(-58.481640702145754, -58.44977490214567,-58.364820675162804, -58.52073971748967)
